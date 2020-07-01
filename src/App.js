@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Greet  from './components/Greet';
-import Welcome from './components/Welcome';
+// import Greet  from './components/Greet';
+// import Welcome from './components/Welcome';
+import Message from './components/Message';
 // import Hello from './components/Hello';
 
 function App() {
   return (
     <div className="App">
-      <Greet name = "Raj" heroname = "BAtman"> 
+      {/* <Greet name = "Raj" heroname = "BAtman"> 
           <p> Child </p>
       </Greet>
       <Greet name = "Richa"  heroname = "BAtman"> 
@@ -25,7 +26,9 @@ function App() {
           <button> Action </button>
       </Welcome>
       <Welcome name = "Richaraj">
-      </Welcome>
+      </Welcome> */}
+
+      <Message />
       {/* <Hello />
       <Hello />
       <Hello /> */}
